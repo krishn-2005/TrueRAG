@@ -12,11 +12,11 @@ LLM_MODEL = "openai/gpt-oss-safeguard-20b"
 
 PDF_URLS = {
     "survey_of_transformers.pdf":
-        "https://github.com/USERNAME/REPOSITORY/blob/main/data/survey_of_transformers.pdf",
+        "https://github.com/krishn-2005/TrueRAG/blob/main/data/survey_of_transformers.pdf",
 
     "LLM_survey.pdf":
-        "https://github.com/USERNAME/REPOSITORY/blob/main/data/LLM_survey.pdf",
+        "https://github.com/krishn-2005/TrueRAG/blob/main/data/LLM_survey.pdf",
 
     "eval_LLM.pdf":
-        "https://github.com/USERNAME/REPOSITORY/blob/main/data/eval_LLM.pdf",
+        "https://github.com/krishn-2005/TrueRAG/blob/main/data/eval_LLM.pdf",
 }
