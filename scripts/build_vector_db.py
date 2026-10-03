@@ -1,19 +1,12 @@
-from pathlib import Path
-import sys
-
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 
-APP_DIR = Path(__file__).resolve().parents[1]
-if str(APP_DIR) not in sys.path:
-    sys.path.insert(0, str(APP_DIR))
-
-from src.config import VECTOR_DB_PATH, COLLECTION_NAME
+from src.config import BASE_DIR, VECTOR_DB_PATH, COLLECTION_NAME
 from src.embeddings import get_embeddings
 
 
-DATA_DIR = APP_DIR / "data"
+DATA_DIR = BASE_DIR / "data"
 PDF_PATHS = [
     (DATA_DIR / "survey_of_transformers.pdf", 33),
     (DATA_DIR / "LLM_survey.pdf", 36),
