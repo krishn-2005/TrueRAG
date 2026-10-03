@@ -1,5 +1,4 @@
 __pycache__/
 *.py[cod]
 context.txt
-readme.md
 .env
